@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body; ListView(
         children: [
           SizedBox(height: 50,),
-          imageFIle != null ?
+          imageFile != null ?
           Container(
             child: Image.file(imageFile!),
           ) :  // Container
