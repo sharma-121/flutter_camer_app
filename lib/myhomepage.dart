@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
 
-class MyHome extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
 
   @override
   _MyHomePageState createstate() => _MyHomePageState();
