@@ -7,7 +7,7 @@ import 'package:image_picker/image_picker.dart';
 class MyHome extends StatefulWidget {
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _MyHomePageState createstate() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
@@ -27,7 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body; ListView(
+      body: ListView(
         children: [
           SizedBox(height: 50,),
           imageFile != null ?
